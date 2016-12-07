@@ -31,7 +31,7 @@ class MerkelTreeHash(object):
         else:
             return self.find_merkel_hash(secondary)
 
-
+        
 if __name__ == '__main__':
 
     import uuid
@@ -48,3 +48,4 @@ if __name__ == '__main__':
     print('The merkel tree hash of the hashes below is : {0}'.format(mk))
     print('...')
     print(file_hashes)
+    
